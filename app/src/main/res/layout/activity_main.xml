@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="411dp"
+    android:layout_height="63dp"
+    android:background="#0D2CE8"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="3.5dp"
+        android:layout_marginLeft="3.5dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"/>
+    <TextView
+        android:layout_width="46dp"
+        android:layout_height="26dp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="58dp"/>
+
+</LinearLayout>
+
+
+    <EditText
+        android:layout_width="291dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="20dp"
+        android:hint=" Email"
+        android:lineHeight="21sp"
+        android:textColor="#444444"
+        android:textColorHint="#444444"
+        android:textSize="18sp"
+
+        />
+
+    <EditText
+        android:layout_width="290dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="43dp"
+        android:width="245dp"
+        android:height="26dp"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:lineHeight="21sp"
+        android:textColor="#444444"
+        android:textColorHint="#444444" />
+
+    <TextView
+        android:layout_width="164dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="128dp"
+        android:text="USE PHONE NUMBER"
+        android:textColor="#0583EA"
+        android:layout_marginTop="31dp"
+        />
+
+    <Button
+        android:layout_width="291dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="23dp"
+        android:background="#858992"
+        android:text="Login"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="164dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="128dp"
+        android:text="FORGOT PASSWORD"
+        android:textColor="#858992"
+        android:layout_marginTop="31dp"
+        />
+
+    <TextView
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="197dp"
+        android:layout_marginTop="31dp"
+        android:text="Or"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="43dp"
+        android:background="#3B5998"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="19.35dp"
+            android:layout_height="19.35dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/vector__2_" />
+
+        <TextView
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="13dp"
+            android:text="Continue with facebook"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="22sp"
+        android:background="#EBEDF1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/vector" />
+
+        <TextView
+            android:layout_width="247dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="13dp"
+            android:text="Continue with Google"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
